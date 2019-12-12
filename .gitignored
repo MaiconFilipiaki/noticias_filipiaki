@@ -3,4 +3,5 @@ ENV/
 ENV
 /.idea
 .idea/
+.idea/*
 .idea
