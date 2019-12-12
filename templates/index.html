@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
-    <article>
+    <a href="{{ url_for('details_news', id=1) }}">
         <header>
             <h3>Jovem morre</h3>
         </header>
@@ -10,8 +10,8 @@
             </p>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvTWvhJqba1HjO2CQLEUWW4Lw_a5-5Ie6xY5nwYkDDFrHSEzPL" alt="">
         </section>
-    </article>
-    <article>
+    </a>
+    <a href="{{ url_for('details_news', id=2) }}">
             <header>
                 <h3>Jovem morre</h3>
             </header>
@@ -21,5 +21,5 @@
                 </p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvTWvhJqba1HjO2CQLEUWW4Lw_a5-5Ie6xY5nwYkDDFrHSEzPL" alt="">
             </section>
-        </article>
+        </a>
 {% endblock %}
