@@ -113,3 +113,27 @@ table {
     width: 25%;
 	border-radius: 5px;
 }
+
+.container > main > article {
+	background: #FAFBFC;
+	margin: 10px 0;
+	border-radius: 5px;
+	color: #000;
+	padding: 20px;
+}
+.container > main > article > header {
+	margin: 10px 0;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.container > main > article > img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border-radius: 10px;
+	margin-top: 15px;
+    margin-bottom: 10px;
+	height: 300px;
+    width: 90%;
+}
