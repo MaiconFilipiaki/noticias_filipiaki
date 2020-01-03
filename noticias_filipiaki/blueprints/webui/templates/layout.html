@@ -9,7 +9,9 @@
 <body>
     <div class="container">
         <header>
-            <h1 class="text-logo">Noticias Filipiaki</h1>
+            <a href="{{ url_for('noticias.index') }}">
+                <h1 class="text-logo">Noticias Filipiaki</h1>
+            </a>
         </header>
         <main>
             {% block content %}

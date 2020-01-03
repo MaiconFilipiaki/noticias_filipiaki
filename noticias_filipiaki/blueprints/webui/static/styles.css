@@ -72,6 +72,7 @@ table {
     font-family: 'Lilita One', cursive;
     font-size: 2.5em;
     color: #FFF;
+	text-decoration: underline;
 }
 .container > main {
 	margin: 5px 20%;
